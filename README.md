@@ -75,26 +75,26 @@ Administrators can view and manage all orders, including their processing, prepa
 ## Entities:
 ![ERD WEB DEV](https://github.com/tanvironb/webdev/assets/170326332/7db17011-9c5c-46b4-b2de-2de0c9f03f91)
 
-##### User: Represents users of the system, including students and potentially staff/faculty.
+#### User: Represents users of the system, including students and potentially staff/faculty.
 
 
-##### Attributes: User ID (primary key), Name, Email, Phone number
-##### Restaurant: Represents restaurants participating in the UIAfood system, including both on-campus canteens and off-campus restaurants.
+#### Attributes: User ID (primary key), Name, Email, Phone number
+#### Restaurant: Represents restaurants participating in the UIAfood system, including both on-campus canteens and off-campus restaurants.
 
 
-##### Attributes: Restaurant ID (primary key), Name, Location (text or foreign key to a Location table), Contact Information (phone, website)
-##### Dish: Represents individual food items offered by restaurants.
+#### Attributes: Restaurant ID (primary key), Name, Location (text or foreign key to a Location table), Contact Information (phone, website)
+#### Dish: Represents individual food items offered by restaurants.
 
 
-##### Attributes: Dish ID (primary key), Name, Description, Price, Image (URL or file reference)
-##### Order: Represents an order placed by a user.
+#### Attributes: Dish ID (primary key), Name, Description, Price, Image (URL or file reference)
+#### Order: Represents an order placed by a user.
 
 
-##### Attributes: Order ID (primary key), User ID (foreign key to User table), Restaurant ID (foreign key to Restaurant table), Order Date, Order Time, Status (e.g., Pending, Preparing, Delivered, Cancelled)
-##### Order_Item: Connects orders with dishes (many-to-many relationship).
+#### Attributes: Order ID (primary key), User ID (foreign key to User table), Restaurant ID (foreign key to Restaurant table), Order Date, Order Time, Status (e.g., Pending, Preparing, Delivered, Cancelled)
+#### Order_Item: Connects orders with dishes (many-to-many relationship).
 
 
-##### Attributes (primary key): Order ID (foreign key to Order table), Dish ID (foreign key to Dish table), Quantity
+#### Attributes (primary key): Order ID (foreign key to Order table), Dish ID (foreign key to Dish table), Quantity
 ### Relationships:
 One user can place many orders (one-to-many between User and Order).
 One restaurant can have many dishes (one-to-many between Restaurant and Dish).
