@@ -16,86 +16,86 @@ To assist administrators in keeping track of ordering records, locating them in 
 			
 # User Interface and Experience
 
-Intuitive Design:
+##### Intuitive Design:
 
 
 The website will be designed to work seamlessly on various devices, including desktops, tablets, and smartphones.
 Simple and clear menus and search functionalities will help users find what they need quickly.
 
-Restaurant Listings:
+##### Restaurant Listings:
 
 
 Each restaurant will have extensive details available, including location, hours of operation, and contact information.
 Menus will be displayed with descriptions, prices, and images of the dishes.
 
-Food Availability Tracking:
+##### Food Availability Tracking:
 
 Users will be able to see real-time updates on the availability of menu items to avoid ordering disappointments.
 Notifications will alert users when popular items are back in stock.
 
 Ordering and Delivery System
 
-Seamless Ordering Process:
+##### Seamless Ordering Process:
 
 Users can place orders through a straightforward and intuitive process.
 
-Delivery Management:
+##### Delivery Management:
 
 The system will coordinate with delivery services to ensure timely and efficient food delivery. (remove?)
 Users can track their orders in real-time from preparation to delivery.
 
-Payment Gateway Integration:
+##### Payment Gateway Integration:
 
 The platform will support various payment methods, including credit/debit cards, online banking, and mobile wallets.
 Transactions will be secure, using encryption and fraud detection for safe payment processing.
 
-Promotions and Discounts
+### Promotions and Discounts
 
-Exclusive Deals:
+##### Exclusive Deals:
 
 The website will highlight ongoing promotions, discounts, and special deals from participating restaurants.
 
-Reviews and Ratings
+### Reviews and Ratings
 
-User Reviews:
+##### User Reviews:
 
 Users can rate their experiences and provide feedback through a rating system.
 
-Administrative Tools
+### Administrative Tools
 
-Order Management:
+##### Order Management:
 
 Restaurant owners will have access to a dashboard to manage orders, update menus, and track sales.
 Administrators can view and manage all orders, including their processing, preparation, and delivery statuses.
 
 
-Entity-Relationship Diagram (ERD) for the UIAfood system:
+# Entity-Relationship Diagram (ERD) for the UIAfood system:
 
 
-# Entities:
+## Entities:
 ![ERD WEB DEV](https://github.com/tanvironb/webdev/assets/170326332/7db17011-9c5c-46b4-b2de-2de0c9f03f91)
 
-User: Represents users of the system, including students and potentially staff/faculty.
+##### User: Represents users of the system, including students and potentially staff/faculty.
 
 
-Attributes: User ID (primary key), Name, Email, Phone number
-Restaurant: Represents restaurants participating in the UIAfood system, including both on-campus canteens and off-campus restaurants.
+##### Attributes: User ID (primary key), Name, Email, Phone number
+##### Restaurant: Represents restaurants participating in the UIAfood system, including both on-campus canteens and off-campus restaurants.
 
 
-Attributes: Restaurant ID (primary key), Name, Location (text or foreign key to a Location table), Contact Information (phone, website)
-Dish: Represents individual food items offered by restaurants.
+##### Attributes: Restaurant ID (primary key), Name, Location (text or foreign key to a Location table), Contact Information (phone, website)
+##### Dish: Represents individual food items offered by restaurants.
 
 
-Attributes: Dish ID (primary key), Name, Description, Price, Image (URL or file reference)
-Order: Represents an order placed by a user.
+##### Attributes: Dish ID (primary key), Name, Description, Price, Image (URL or file reference)
+##### Order: Represents an order placed by a user.
 
 
-Attributes: Order ID (primary key), User ID (foreign key to User table), Restaurant ID (foreign key to Restaurant table), Order Date, Order Time, Status (e.g., Pending, Preparing, Delivered, Cancelled)
-Order_Item: Connects orders with dishes (many-to-many relationship).
+##### Attributes: Order ID (primary key), User ID (foreign key to User table), Restaurant ID (foreign key to Restaurant table), Order Date, Order Time, Status (e.g., Pending, Preparing, Delivered, Cancelled)
+##### Order_Item: Connects orders with dishes (many-to-many relationship).
 
 
-Attributes (primary key): Order ID (foreign key to Order table), Dish ID (foreign key to Dish table), Quantity
-Relationships:
+##### Attributes (primary key): Order ID (foreign key to Order table), Dish ID (foreign key to Dish table), Quantity
+### Relationships:
 One user can place many orders (one-to-many between User and Order).
 One restaurant can have many dishes (one-to-many between Restaurant and Dish).
 One order can include many dishes (many-to-many between Order and Dish, represented by the Order_Item table).
