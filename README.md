@@ -78,8 +78,8 @@ Administrators can view and manage all orders, including their processing, prepa
 ## **User**: Represents users of the system, including students and potentially staff/faculty.
 
 
-#### Attributes: User ID (primary key), Name, Email, Phone number
-#### Restaurant: Represents restaurants participating in the UIAfood system, including both on-campus canteens and off-campus restaurants.
+#### **Attributes**: User ID (primary key), Name, Email, Phone number
+#### **Restaurant**: Represents restaurants participating in the UIAfood system, including both on-campus canteens and off-campus restaurants.
 
 
 #### Attributes: Restaurant ID (primary key), Name, Location (text or foreign key to a Location table), Contact Information (phone, website)
