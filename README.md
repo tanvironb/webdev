@@ -75,7 +75,7 @@ Administrators can view and manage all orders, including their processing, prepa
 ## Entities:
 ![ERD WEB DEV](https://github.com/tanvironb/webdev/assets/170326332/7db17011-9c5c-46b4-b2de-2de0c9f03f91)
 
-#### User: Represents users of the system, including students and potentially staff/faculty.
+#### **User**: Represents users of the system, including students and potentially staff/faculty.
 
 
 #### Attributes: User ID (primary key), Name, Email, Phone number
