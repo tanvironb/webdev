@@ -4,7 +4,7 @@ In a technological and advancing world, where time is a precious commodity, We w
 We propose the implementation of a UIA food service should be more convenient. UIAfood will be a dedicated website linked with the International Islamic University Malaysia (IIUM), designed to enhance the dining experience for its community. This platform will provide students with comprehensive information about the various restaurants, their foods and their availability available within the university’s canteens, showcasing promotions and discounts to make the restaurants food and beverage which is affordable and convenient. Additionally, UIAfood extends its services beyond campus by connecting users with international restaurants, facilitating easy ordering and delivery from these establishments.
  This integration ensures that students have diverse and accessible food choices, both within and outside the university, streamlining the process of discovering various countries' cultural food and connecting all restaurants together in one page. 
 
-# objectives
+# Objectives
 Increased food accessibility and connecting the food and beverage stalls and also the mahallah canteens in one site for the students and others.
 People can order foods from the mahallah canteens and the other UIA food stalls also facilitating delivery systems which will be allowing them to track their order.
 Users may check the availability of the foods or shop before making the order from the site.     
