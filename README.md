@@ -1,5 +1,5 @@
 
-# introduction
+# Introduction
 In a technological and advancing world, where time is a precious commodity, We will focus on  the necessity of efficiency, convenience and the availability of Foods and beverages in the mahallah canteens and the restaurants. This facility will be managed through a webpage at the International Islamic University Malaysia (IIUM). It will recognize the user experience for both students and mahallah’s canteen and other restaurants in UIA. 
 We propose the implementation of a UIA food service should be more convenient. UIAfood will be a dedicated website linked with the International Islamic University Malaysia (IIUM), designed to enhance the dining experience for its community. This platform will provide students with comprehensive information about the various restaurants, their foods and their availability available within the university’s canteens, showcasing promotions and discounts to make the restaurants food and beverage which is affordable and convenient. Additionally, UIAfood extends its services beyond campus by connecting users with international restaurants, facilitating easy ordering and delivery from these establishments.
  This integration ensures that students have diverse and accessible food choices, both within and outside the university, streamlining the process of discovering various countries' cultural food and connecting all restaurants together in one page. 
@@ -14,7 +14,7 @@ To assist administrators in keeping track of ordering records, locating them in 
 
 					 				
 			
-User Interface and Experience
+# User Interface and Experience
 
 Intuitive Design:
 
@@ -72,7 +72,7 @@ Administrators can view and manage all orders, including their processing, prepa
 Entity-Relationship Diagram (ERD) for the UIAfood system:
 
 
-#Entities:
+# Entities:
 ![ERD WEB DEV](https://github.com/tanvironb/webdev/assets/170326332/7db17011-9c5c-46b4-b2de-2de0c9f03f91)
 
 User: Represents users of the system, including students and potentially staff/faculty.
@@ -100,5 +100,6 @@ One user can place many orders (one-to-many between User and Order).
 One restaurant can have many dishes (one-to-many between Restaurant and Dish).
 One order can include many dishes (many-to-many between Order and Dish, represented by the Order_Item table).
 
-Sequence Diagram
+# Sequence Diagram
+
 
