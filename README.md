@@ -16,7 +16,7 @@ To assist administrators in keeping track of ordering records, locating them in 
 			
 # User Interface and Experience
 
-##### Intuitive Design:
+ **Intuitive Design**:
 
 
 The website will be designed to work seamlessly on various devices, including desktops, tablets, and smartphones.
